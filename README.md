@@ -6,9 +6,7 @@ This is assignment for Week 0 on Revou FSSE Section Seoul.
 
 Hello everyone, my name is Sarra Nutrisia. I'm a student of Revou Full Stack Software Engineering (FSSE 3) from Section Seoul.
 
-<p align="center">
-  <img src="Assets/Photo_SarraNutrisia.jpeg" alt="My Image">
-</p>
+![Add my Photo](Assets/Photo_SarraNutrisia.jpeg)
 
 I was a banker for 4 years as a staff of Financial Administration & Remedial Department. After married, My husband and I have to live in different city or country every year because demand of my husband's job. Therefore I decided to resign from my job.
 
@@ -19,9 +17,18 @@ Based on my experience learning at Revou, this bootcamp gives you guidance not o
 
 ## My Links &#128279;
 
-* GitHub : https://github.com/SarraNutrisia
-* Instagram: https://instagram.com/SarraNutrisia 
-* LinkedIn : https://linkedin.com/in/sarra-nutrisia-9b64bbb6
+* _[GitHub Sarra](https://github.com/SarraNutrisia)_ ![GitHub Icon](Assets/Github_Icon.gif)
+  
+
+
+* _[Instagram Sarra](https://instagram.com/SarraNutrisia)_ ![Instagram Icon](Assets/Instagram_Icon.gif) 
+
+
+
+* _[Linkedin Sarra](https://linkedin.com/in/sarra-nutrisia-9b64bbb6)_ ![Linkedin Icon](Assets/Linkedin_Icon.gif) 
+  
+
+
   
 ## What I've Learnt This Week &#9997;
 
@@ -43,12 +50,12 @@ Based on my experience learning at Revou, this bootcamp gives you guidance not o
 
 ## My Favorite Websites &#128241;
 
-Name       |            URL            |                   Reason                    |
----------- |---------------------------|---------------------------------------------|
-_Google_   | https://www.google.com/   | To gain information                         |
-_Youtube_  | https://www.youtube.com/  | To entertain, search and learning something |
-_Instagram_| https://www.instagram.com/| To gain information and socialize           |
-_Chat GPT_ | https://chat.openai.com/  | To gain information and search for solution |
+Website                                     |                     URL                     |                   Reason                    |
+---------- |---------------------------------------------|---------------------------------------------|
+![Google Icon](Assets/Google_Icon.gif)      | [Link Google](https://www.google.com/)      | To gain information                         |
+![Youtube Icon](Assets/Youtube_Icon.gif)    | [Link Youtube](https://www.youtube.com/)    | To entertain, search and learning something |
+![Instagram Icon](Assets/Instagram_Icon.gif)| [Link Instagram](https://www.instagram.com/)| To gain information and socialize           |
+![Chat GPT Icon](Assets/Chat_GPT_Icon.png)  | [Link Chat GPT](https://chat.openai.com/)   | To gain information and search for solution |
 
 
 
