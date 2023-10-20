@@ -1,0 +1,377 @@
+body {
+    font-family: "Cambria", cambria;
+    margin: 0;
+    background-color: #F5EFE7;
+  }
+
+section {
+    margin: 0 16px;
+  }
+  
+section.full-screen {
+    margin: 0;
+  }
+
+nav {
+    position: fixed;
+    background-color: #F5EFE7;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    border-bottom: 2px solid #222222;
+  }
+
+nav > ul {
+    margin-left: auto;
+    margin-right: 16px;
+  }
+
+nav > ul > li {
+    display: inline-block;
+  }
+
+nav > span > img {
+    height: 32px;
+    width: auto;
+    padding: 8px;
+  }
+
+nav > span {
+    display: flex;
+    align-items: center;
+  }
+
+header {
+    text-align: center;
+    color: #F2B279;
+    background-color: #034159;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 48px;
+  }
+
+nav .circle-red {
+    font-size: 10px;
+    background-color: #B31312;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    color: #F2B279;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right: -17px;
+  }
+
+.relative-container {
+    position: relative;
+  }
+
+.desktop{
+  cursor: pointer;
+}
+
+.relative-container{
+  cursor: pointer;
+}
+
+.circle-red{
+  cursor: pointer;
+}
+
+header h1 {
+    margin: 16px;
+    font-size: 40px;
+  }
+
+header p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+#our-activities h2{
+  font-size: 30px;
+}
+  
+img {
+    width: 100%;
+  }
+
+figure {
+  border-radius: 5% 5% 5% 5%;
+  border-style: groove;
+  border-width: 10px;
+}
+  
+h2 {
+    text-align: center;
+  }
+
+#section-video .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#KATEDA-facts .flex-container figure {
+    text-align: center;
+  }
+  
+#KATEDA-facts .flex-container img {
+    height: 240px;
+    width: auto;
+  }
+
+#KATEDA-technic .flex-container figure {
+    text-align: center;
+  }
+  
+#KATEDA-technic .flex-container img {
+    height: 240px;
+    width: auto;
+  }
+
+#our-activities .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    grid-auto-rows: 240px 240px 240px;
+  }
+  
+#our-activities .grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 5% 5%;
+  }
+  
+.grid-container #potrait-1 {
+    grid-column: 1 / 2 span;
+    grid-row: 1;
+  }
+
+fieldset {
+    margin: 16px 0;
+    border-radius: 4px;
+  }
+
+#KATEDA-facts h2{
+  font-size: xx-large;
+  margin-top: 100px;
+  
+}
+
+.develop{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+.symbol{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+.school{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+#KATEDA-technic h2{
+  font-size: xx-large;
+  margin-top: 50px;
+  
+}
+
+.punch{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+.kick{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+.slam{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+
+.withstand{
+  padding: 10px;
+  font-size: larger;
+  color: #333333;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    display: block;
+  }
+  
+#form-section {
+    background-color: #034159;
+    color: #F5EFE7;
+    padding: 8px;
+    margin-top: 16px;
+  }
+  
+#form-section form {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+button[type="submit"] {
+    color: #F5EFE7;
+    background-color: transparent;
+    border: 1px solid #F5EFE7;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+/* for tablet and desktop */
+/* @media only screen and (min-width: 768px) {
+    #KATEDA-facts > .flex-container {
+      display: flex;
+      align-items: center;
+    }
+  
+    #KATEDA-facts > .flex-container figure {
+      margin-left: auto;
+    }
+  
+    #KATEDA-facts > .flex-container figure img {
+      height: 400px;
+    }
+  
+    #KATEDA-facts > .flex-container figcaption {
+      text-align: center;
+      margin-top: 16px;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse {
+      flex-direction: row-reverse;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse p {
+      margin-left: 32px;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse figure {
+      margin-left: 40px;
+      min-width: 320px;
+    }
+
+    #KATEDA-facts > .flex-container {
+      display: flex;
+      align-items: center;
+    }
+  
+    #KATEDA-facts > .flex-container figure {
+      margin-left: auto;
+    }
+  
+    #KATEDA-facts > .flex-container figure img {
+      height: 400px;
+    }
+  
+    #KATEDA-facts > .flex-container figcaption {
+      text-align: center;
+      margin-top: 16px;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse {
+      flex-direction: row-reverse;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse p {
+      margin-left: 32px;
+    }
+  
+    #KATEDA-facts > .flex-container.row-reverse figure {
+      margin-left: 40px;
+      min-width: 320px;
+    }
+
+    #KATEDA-technic > .flex-container {
+        display: flex;
+        align-items: center;
+      }
+    
+      #KATEDA-technic > .flex-container figure {
+        margin-left: auto;
+      }
+    
+      #KATEDA-technic > .flex-container figure img {
+        height: 400px;
+      }
+    
+      #KATEDA-technic > .flex-container figcaption {
+        text-align: center;
+        margin-top: 16px;
+      }
+    
+      #KATEDA-technic > .flex-container.row-reverse {
+        flex-direction: row-reverse;
+      }
+    
+      #KATEDA-technic > .flex-container.row-reverse p {
+        margin-left: 32px;
+      }
+    
+      #KATEDA-technic > .flex-container.row-reverse figure {
+        margin-left: 40px;
+        min-width: 320px;
+      }
+  
+    iframe {
+      max-width: 480px;
+    }
+  
+    #our-activities .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 16px;
+      grid-auto-rows: 320px 320px;
+    }
+  
+    #our-activities .grid-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .grid-container #potrait-1 {
+      grid-column: 1;
+      grid-row: 1 / 2 span;
+    }
+  
+    .grid-container #potrait-2 {
+      grid-row: 1;
+      grid-column: 2 / 3 span;
+    }
+  } */
+
+    .footer{
+        text-align: center;
+        font-size: larger;
+    }
